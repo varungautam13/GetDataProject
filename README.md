@@ -14,4 +14,4 @@ run_analysis files does the following opeartions based on the assumption that te
 * Feature is used to name the columns of the combined dataset, out of which only columns with mean and standard deviation are selected
 * Activity label is also included in the completed dataset 
 * Mean is calculated for each observation for each of the subject for each activity.
-* The dataset thus obtained is saved as a test file.
+* The dataset thus obtained is saved as a text file.
