@@ -5,7 +5,7 @@ The repository contains the following files for Getting and Cleaning Data - Cour
 
 The dataset being used is:Human Activity Recognition using SmartPhone
 
-## R COde Details
+## R Code Details
 run_analysis files does the following opeartions based on the assumption that text files are placed in the working directory:
 * The working directory consists of two folders- Train and Test hosting required files. The code reads all the files from respective folders.
 * All the train files are combined using cbind() and the same is done for test files.
