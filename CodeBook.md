@@ -20,7 +20,7 @@ The transformed data file generated after the operations is called
 * Train and Test are then combined to form a complete datset - CompleteData (dataframe)
 * Using features dataset, the combined dataset columns are named (all the observations get an associated name)
 * Only columns with mean and std in then are then filtered out to form a dataframe SubsetMeanStdData. This is done by using dplyr package.
-* Activity Labels are also merged in the combined dataset so that each row can be associted with a label indicatin gthe activity with Actvity Column
+* Activity Labels are also merged in the combined dataset so that each row can be associted with a label indicating the activity type with Type Column name
 * Average is calculated for all columns obtained in previous step - SubsetData - for each subject and each activity type using dplyr package group_by and summarise functions
 * SubsetData is then saved as a text file named - TidyDataSet
 * The dataset - SubsetData - formed in previous is then saved as TidyDataSet
